@@ -1,0 +1,19 @@
+
+@media screen and ( max-width: 991px)  {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .rowe{
+
+        width: 2%;
+        border-right: 2px rgb(142, 140, 140) solid ;
+        
+      }
+
+}  

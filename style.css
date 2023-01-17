@@ -1,0 +1,271 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap'); 
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'poppins' , sans-serif;
+    color: #183b56;
+ }
+
+ h1{
+    font-size: 3rem;
+ }
+
+ h2{
+    font-size: 2rem;
+ }
+
+ h3{
+    font-size: 1.5rem;
+ }
+
+ p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #101112;
+    line-height: 1.9rem;
+ }
+
+ a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    
+ }
+
+ .container{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    overflow: hidden;
+ }
+ .flex{
+    display: flex;
+    align-items: center;
+
+}
+
+ .main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+
+ }
+
+ .hover-link{
+    color: #161819;
+ }
+ 
+
+ ul{
+    list-style: none;
+ }
+ .nav-links {
+    flex-basis: 730px;
+ }
+ .nav-links ul{
+    justify-content: end;
+    gap: 40px;
+ }
+
+ .nav-toggle{
+    display: none ;
+}
+ 
+header{
+    padding: 50px 120px 0;
+    
+}
+ .header-section{
+    justify-content: center;
+    gap: 10px;
+ }
+ .header-right img{
+    width: 100%;
+    
+
+ }
+
+ .header-left{
+    max-width: 40vw;
+ }
+
+ .btn{
+    margin-top: 20px;
+   
+ }
+ .primary-button{
+   
+   border: 1px black solid ;
+   border-radius: 6px;
+   font-weight: 300; 
+   font-size: 20px;
+   color: rgb(33, 31, 31) !important;
+   padding: 10px;
+   align-items:  center;
+
+
+ }
+ .primary-button1{
+   margin-left: 20px;
+    border: 1px black solid ;
+    border-radius: 6px;
+    font-weight: 300; 
+    font-size: 20px;
+    color: rgb(33, 31, 31) !important;
+    background: linear-gradient(rgb(0, 0,0,0.2), hwb(0 40% 20% / 0.2)), #fca817;
+    padding: 10px;
+ 
+
+  }
+
+  .play{
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+
+  .Company-achivement{
+    justify-content: center;
+    margin-block: 130px;
+    background: white;
+    
+  }
+
+  .service{
+    border-right: 2px rgb(142, 140, 140) solid ;
+    
+  }
+
+  .mm4 {
+    display: flex;
+    margin: 20px;
+padding: 5px;
+
+}
+
+.mm1{
+
+   
+    padding: 5px;
+    margin-left: 90px;
+}
+
+.mm2{
+  
+    padding: 5px;
+   
+}
+
+.mm3{
+
+   
+    padding: 5px;
+   
+}
+
+.slides{
+   
+  
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+.review{
+    width: 300px;
+    height: 40px;
+    display: flex;
+   
+    margin-left: 70PX;
+}
+.swiper-slide{
+    display: flex;
+    margin-top: 50px;
+}
+
+.frame{
+    height: auto;
+    max-width: 100%;
+    color: transparent;
+}
+
+
+
+.tech{
+
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.matter{
+    margin-top: 50px;
+    margin-left: -120px;
+    font-size: 14px;
+   position: relative;
+    height: 120px;
+    width: 800px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 10px;
+    
+    background-color: white;
+   
+    
+
+}
+.matter::after{
+    height: 40px;
+    width: 40px;
+    content: "";
+    background-image: url("quote.png");
+    background-position: 50%;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+
+
+}
+
+.yt{
+
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+.yt1{
+    margin-left: 70px;
+}
+.yt2{
+    margin-left: 70px;
+}
+
+.about{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.adress{
+
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.social{
+    
+    float: left;
+    padding: 10px;
+  
+}
